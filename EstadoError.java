@@ -6,7 +6,7 @@ public class EstadoError extends EstadoImpresora {
 
     @Override
     public void agregarPapel(Impresora impresora) {
-        System.out.println("No se puede agregar papel. Hay un error técnico.");
+        System.out.println("No se puede agregar papel. Hay un error tecnico.");
     }
 
     @Override
@@ -17,6 +17,6 @@ public class EstadoError extends EstadoImpresora {
 
     @Override
     public String toString() {
-        return "Error de impresión";
+        return "Error de impresion";
     }
 }

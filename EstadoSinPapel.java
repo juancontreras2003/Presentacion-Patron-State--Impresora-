@@ -12,7 +12,7 @@ public class EstadoSinPapel extends EstadoImpresora {
 
     @Override
     public void resolverError(Impresora impresora) {
-        System.out.println("No hay error técnico.");
+        System.out.println("No hay error tecnico.");
     }
 
     @Override

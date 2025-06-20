@@ -1,7 +1,7 @@
 public class EstadoImprimiendo extends EstadoImpresora {
     @Override
     public void imprimir(Impresora impresora) {
-        System.out.println("Ya se está imprimiendo. Espere...");
+        System.out.println("Ya se esta imprimiendo. Espere...");
     }
 
     @Override
@@ -11,7 +11,7 @@ public class EstadoImprimiendo extends EstadoImpresora {
 
     @Override
     public void resolverError(Impresora impresora) {
-        System.out.println("No hay error. Está imprimiendo.");
+        System.out.println("No hay error. Esta imprimiendo.");
     }
 
     @Override
